@@ -1,0 +1,143 @@
+.middle-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.side-bar-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.side-bar {
+    padding-right: 20%;
+    background-color: #7C7575;
+    z-index: 2;
+}
+
+.side-bar-container .side-bar .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 2%;
+    padding: 1% 5% 2%;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 4rem;
+}
+
+.header-date {
+    font: small-caps 200 1.2rem 'Poppins', sans-serif;
+    margin-bottom: 1%;
+    border-left: 5px solid #7C7575;
+    padding-left: 10px;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 0 5% 2%;
+}
+
+.fst-btn {
+    justify-content: end;
+}
+
+.project-btn {
+    padding: 0.5% 3%;
+    border: none;
+    background-color: #7C7575;
+    border-radius: 25px;
+}
+
+.project-btn:hover {
+    background-color: #B8B0B0;
+    transform: translateY(-2px);
+}
+
+.btn-link {
+    display: block;
+
+    color: #FBF0F0;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+}
+
+.project-btn:hover .btn-link {
+    color: #7C7575;
+}
+
+.project-content {
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2% 4%;
+
+    text-align: justify;
+    text-indent: 50px;
+
+    transition: 1s;
+}
+
+.project-content:hover {
+    transform: scale(1.005);
+    z-index: 1;
+}
+
+/* img styles go here */
+
+figure {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content-img {
+    width: 90%;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.content-intro {
+    font-style: italic;
+    font-size: 1.05rem;
+    line-height: 115%;
+
+    padding: 0 8%;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+.bq-footer {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    text-align: center;
+}
+
+.content-text p {
+    margin: 10px 0;
+    line-height: 180%;
+    font-size: 1.2rem;
+}

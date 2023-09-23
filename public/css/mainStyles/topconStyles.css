@@ -1,0 +1,41 @@
+.top-container {
+    border-bottom: 2px solid black;
+    background-color: #373737;
+    padding: 1% 0;
+    color: #fff;
+
+    position: fixed;
+
+    height: 8vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    z-index: 3;
+}
+
+.top-container .logo {
+    padding-left: 1.5%;
+}
+
+.top-container .header-links {
+    padding-right: 1.5%;
+}
+
+.top-container a {
+    color: #fff;
+    text-decoration: none;
+
+    font-weight: 100;
+}
+
+.top-container .logo a {
+    font-size: 4vw;
+}
+
+.top-container .header-links {
+    font-size: 1.8vw;
+}

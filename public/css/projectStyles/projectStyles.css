@@ -58,7 +58,7 @@
 }
 
 .header-title {
-    font-size: 4rem;
+    font-size: 4.5vw;
 }
 
 .header-date {
@@ -124,8 +124,6 @@
     z-index: 1;
 }
 
-/* img styles go here */
-
 figure {
     display: flex;
     justify-content: center;
@@ -144,6 +142,7 @@ figure {
     font-size: 1.05rem;
     line-height: 115%;
     text-indent: 0;
+    color: #7C7575;
 
     padding: 0 8%;
     margin-top: 60px;

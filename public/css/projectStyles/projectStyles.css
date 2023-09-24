@@ -143,6 +143,7 @@ figure {
     font-style: italic;
     font-size: 1.05rem;
     line-height: 115%;
+    text-indent: 0;
 
     padding: 0 8%;
     margin-top: 60px;

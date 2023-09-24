@@ -10,6 +10,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="../../imgs/mainImgs/favicons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../../imgs/mainImgs/favicons/favicon-16x16.png">
         <link rel="manifest" href="../../imgs/mainImgs/favicons/site.webmanifest">
+        <script src="../../script/mainScript/topconScript.js" defer></script>
     </head>
     <body>
         <div class="top-container">
@@ -17,10 +18,14 @@
                 <a href="../../index.html">Ricki's Writings</a>
             </div>
             <div class="header-links">
-                <a href="../directory.html">All Projects</a>
-                <a href="./ThisIBelieve.html">This I Believe</a>
-                <a href="./work-two.html">WorkTwo</a>
-                <a href="./work-three.html">WorkThree</a>
+                <div class="dropdown" data-dropdown>
+                    <a href="../directory.html" class="dropdown-link" data-dropdown-link>Directory</a>
+                    <div class="dropdown-menu">
+                        <a href="./ThisIBelieve.html">This I Believe</a>
+                        <a href="./work-three.html">WorkThree</a>    
+                    </div>
+                </div>
+                <a href="../about.html">About Me</a>
             </div>
         </div>
         <div class="middle-container">

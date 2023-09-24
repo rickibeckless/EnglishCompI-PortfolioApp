@@ -10,6 +10,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./imgs/mainImgs/favicons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./imgs/mainImgs/favicons/favicon-16x16.png">
         <link rel="manifest" href="./imgs/mainImgs/favicons/site.webmanifest">
+        <script src="./script/mainScript/topconScript.js" defer></script>
     </head>
     <body>
         <div class="top-container">
@@ -17,14 +18,19 @@
                 <a href="./index.html">Ricki's Writings</a>
             </div>
             <div class="header-links">
-                <a href="./pages/directory.html">All Projects</a>
-                <a href="./pages/projects/ThisIBelieve.html">This I Believe</a>
-                <a href="./pages/projects/work-two.html">WorkTwo</a>
-                <a href="./pages/projects/work-three.html">WorkThree</a>
+                <div class="dropdown" data-dropdown>
+                    <a href="./pages/directory.html" class="dropdown-link" data-dropdown-link>Directory</a>
+                    <div class="dropdown-menu">
+                        <a href="./pages/projects/ThisIBelieve.html">This I Believe</a>
+                        <a href="./pages/projects/work-two.html">WorkTwo</a>
+                        <a href="./pages/projects/work-three.html">WorkThree</a>    
+                    </div>
+                </div>
+                <a href="./pages/about">About Me</a>
             </div>
         </div>
         <div class="middle-container">
-            <h1>Hi, I'm <span>Ricki Beckless</span>, a student at UA-PTC.</h1>        
+            <h1>Hi, I'm <span>Ricki Beckless</span>, a student at UA-PTC.</h1>
         </div>
         <div class="bottom-container">
             <ul class="links">

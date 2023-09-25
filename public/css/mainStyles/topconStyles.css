@@ -82,3 +82,12 @@ a:hover {
 .dropdown-link {
     padding: 15px;
 }
+
+@media (max-width: 400px) {
+    .top-container .logo a {
+        font-size: 8vw;
+    }
+    .top-container .header-links {
+        font-size: 4vw;
+    }
+}

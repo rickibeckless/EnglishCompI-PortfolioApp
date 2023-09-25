@@ -106,6 +106,10 @@
     width: 90%;
 }
 
+.cm-header {
+    margin-bottom: 20px;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -127,6 +131,23 @@
 .contact-form #message {
     height: 5.5vw;
     padding: .8vw;
+}
+
+.submit-holder {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sub-btn {
+    width: 75px;
+    height: 30px;
+
+    border-radius: 20px;
+    border: 2px solid #373737;
+
+    color: #373737;
+
+    background-color: #dfd3d3;
 }
 
 @media (max-width: 500px) {

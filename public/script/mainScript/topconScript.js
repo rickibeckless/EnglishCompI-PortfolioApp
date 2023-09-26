@@ -13,3 +13,16 @@ document.addEventListener('mouseover', e => {
         dropdown.classList.remove('active');
     });
 });
+
+const hamburger = document.querySelector('.hamburger');
+const headerLinks = document.querySelector('.header-links');
+
+hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    headerLinks.classList.toggle('active');
+});
+
+document.querySelectorAll('.h-l-item').forEach(n => n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    headerLinks.classList.remove('active');
+}));

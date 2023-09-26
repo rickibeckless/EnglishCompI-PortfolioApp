@@ -1,3 +1,112 @@
 .middle-container {
-    height: calc(100vh);
+    border: 2px dashed black;
+
+    height: max-content;
+}
+
+.column-holder {
+    border: 2px dashed green;
+    background-color: aquamarine;
+
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+    height: 100%;
+    padding: 1%;
+}
+
+.left-sidebar, .right-main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.left-sidebar {
+    border: 2px solid red;
+    background-color: aqua;
+
+    /* position: fixed; */
+}
+
+
+
+
+.right-main {
+    border: 2px solid blue;
+    background-color: blueviolet;
+
+    gap: 5vw;
+}
+
+.project-card-holder {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.p-card {
+    border: 2px dashed yellowgreen;
+    background-color: bisque;
+    height: 300px;
+    width: 250px;
+}
+
+
+
+
+.project-carousel-holder {
+    border: 2px dashed orange;
+    background-color: chocolate;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+.project-draft-holder {
+    border: 2px dashed teal;
+    background-color: green;
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.p-draft-card {
+    background-color: blanchedalmond;
+    width: 250px;
+    height: 300px;
+}
+
+
+
+
+.project-reflection-holder {
+    border: 2px dashed salmon;
+    background-color: indianred;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-reflection, .right-reflection {
+    padding: 5%;
+}
+
+.p-r-paragraph {
+    text-align: justify;
+    text-indent: 5%;
+    padding: 2%;
 }

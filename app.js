@@ -2,6 +2,8 @@ import express from "express";
 import path from "path";
 import url from 'url';
 
+import router from "./routes/urlRoutes.js";
+
 const app = express();
 const port = 8080;
 
@@ -12,12 +14,7 @@ const publicPath = path.resolve(__dirname, 'public');
 app.use(express.json());
 app.use(express.static(publicPath));
 
-// ↓↓ if all goes to shit RETREAT! ↓↓
-// app.use(express.static("./public"));
-
-app.get('/home', (req, res) => {
-    res.sendFile(path.join(publicPath, "index.html"))
-})
+app.use('/', router);
 
 
 app.listen(port, () => {

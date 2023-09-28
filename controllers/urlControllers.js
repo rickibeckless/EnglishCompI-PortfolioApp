@@ -22,3 +22,10 @@ export const pOneUrl = (req, res) => {
     res.sendFile(path.join(publicPath, "pages/projects/thisibelieve.html"));
 };
 
+export const pTwoUrl = (req, res) => {
+    res.sendFile(path.join(publicPath, "pages/projects/work-two.html"));
+};
+
+export const pThreeUrl = (req, res) => {
+    res.sendFile(path.join(publicPath, "pages/projects/work-three.html"));
+};

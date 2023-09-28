@@ -1,14 +1,16 @@
 .middle-container {
     border: 2px dashed black;
-
-    background-color: aquamarine;
-
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-
-    height: 100%;
 }
 
+.column-holder {
+    background-color: aquamarine;
+
+    /* display: grid;
+    grid-template-columns: 1fr 5fr; */
+
+    height: 100%;
+    padding: 1%;
+}
 
 .left-sidebar, .right-main {
     display: flex;
@@ -26,11 +28,40 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+
+    width: 5%;
+    position: fixed;
+    left: 0;
 }
 
 .sidebar-content {
+    display: flex;
+    flex-direction: column;
 
+    width: max-content;
+
+    position: absolute;
+    left: -10px;
+    top: 100%;
+
+    background-color: #7C7575;
+    padding: 15%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 #373737;
+
+    opacity: 0;
+    pointer-events: none;
+
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+
+    z-index: 4;
 }
+
+.side-burger {
+    cursor: pointer;
+}
+
 
 
 
@@ -40,6 +71,7 @@
     background-color: blueviolet;
 
     gap: 5vw;
+    margin-left: 5%;
 }
 
 .project-card-holder {
@@ -111,4 +143,10 @@
     text-align: justify;
     text-indent: 5%;
     padding: 2%;
+}
+
+
+
+@media (max-width: 500px) {
+    /* make the sidebar become a top bar */
 }

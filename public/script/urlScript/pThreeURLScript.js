@@ -1,15 +1,15 @@
 // project three address
-// document.addEventListener('DOMContentLoaded', () => {
-//     navigateToProjectThree();
+document.addEventListener('DOMContentLoaded', () => {
+    navigateToProjectThree();
 
-//     const pThreeLink = document.getElementById('p3-link');
-//     if (pThreeLink) {
-//         pThreeLink.addEventListener('click', (e) => {
-//             navigateToProjectThree();
-//         });
-//     }
-// });
+    const pThreeLink = document.getElementById('p3-link');
+    if (pThreeLink) {
+        pThreeLink.addEventListener('click', (e) => {
+            navigateToProjectThree();
+        });
+    }
+});
 
-// function navigateToProjectThree() {
-//     history.pushState(null, null, '/project-three');
-// }
+function navigateToProjectThree() {
+    history.pushState(null, null, '/project-three');
+}

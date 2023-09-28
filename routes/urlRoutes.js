@@ -3,7 +3,7 @@ import { homeUrl, aboutUrl, directoryUrl, pOneUrl, } from "../controllers/urlCon
 
 const router = express.Router();
 
-router.get('/home', homeUrl);
+router.get('/', homeUrl);
 router.get('/about-me', aboutUrl);
 router.get('/directory', directoryUrl);
 router.get('/i-live-for-me', pOneUrl);

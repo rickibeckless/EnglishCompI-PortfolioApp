@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function navigateToHome() {
-    history.pushState(null, null, '/home');
+    history.pushState(null, null, '/');
 }

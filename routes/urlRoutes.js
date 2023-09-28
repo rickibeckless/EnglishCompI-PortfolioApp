@@ -1,12 +1,11 @@
 import express from "express";
-import { homeUrl, aboutUrl } from "../controllers/urlControllers.js";
+import { homeUrl, aboutUrl, directoryUrl, pOneUrl, } from "../controllers/urlControllers.js";
 
-const app = express();
 const router = express.Router();
-
-app.use(express.json());
 
 router.get('/home', homeUrl);
 router.get('/about-me', aboutUrl);
+router.get('/directory', directoryUrl);
+router.get('/i-live-for-me', pOneUrl);
 
 export default router;

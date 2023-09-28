@@ -1,19 +1,14 @@
 .middle-container {
     border: 2px dashed black;
 
-    height: max-content;
-}
-
-.column-holder {
-    border: 2px dashed green;
     background-color: aquamarine;
 
     display: grid;
     grid-template-columns: 1fr 5fr;
 
     height: 100%;
-    padding: 1%;
 }
+
 
 .left-sidebar, .right-main {
     display: flex;
@@ -27,7 +22,14 @@
     border: 2px solid red;
     background-color: aqua;
 
-    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.sidebar-content {
+
 }
 
 

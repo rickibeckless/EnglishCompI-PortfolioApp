@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function navigateToProjectOne() {
-    history.pushState(null, null, '/i-live-for-me');
+    history.pushState(null, null, '/project-one');
 }

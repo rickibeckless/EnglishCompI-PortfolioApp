@@ -12,7 +12,7 @@
 }
 
 .intro-welcome {
-    font-size: 5vw;
+    font-size: 4.5rem;
 }
 
 .i-w-span {
@@ -193,7 +193,7 @@
         padding: 5% 2% 15%;
     }
     .intro-welcome {
-        font-size: 8vw;
+        font-size: 2rem;
     }
     .contact-me {
         margin-top: 10vw;

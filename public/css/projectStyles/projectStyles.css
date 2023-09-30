@@ -115,13 +115,6 @@
 
     text-align: justify;
     text-indent: 50px;
-
-    transition: 1s;
-}
-
-.project-content:hover {
-    transform: scale(1.005);
-    z-index: 1;
 }
 
 figure {
@@ -162,3 +155,4 @@ figure {
     line-height: 180%;
     font-size: 1.2rem;
 }
+

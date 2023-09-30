@@ -18,6 +18,10 @@ export const directoryUrl = (req, res) => {
     res.sendFile(path.join(publicPath, "pages/directory.html"));
 };
 
+export const reflectionUrl = (req, res) => {
+    res.sendFile(path.join(publicPath, "pages/reflections.html"));
+};
+
 export const pOneUrl = (req, res) => {
     res.sendFile(path.join(publicPath, "pages/projects/ThisIBelieve.html"));
 };

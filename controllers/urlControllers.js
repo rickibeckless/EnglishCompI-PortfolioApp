@@ -19,7 +19,7 @@ export const directoryUrl = (req, res) => {
 };
 
 export const pOneUrl = (req, res) => {
-    res.sendFile(path.join(publicPath, "pages/projects/thisibelieve.html"));
+    res.sendFile(path.join(publicPath, "pages/projects/ThisIBelieve.html"));
 };
 
 export const pTwoUrl = (req, res) => {

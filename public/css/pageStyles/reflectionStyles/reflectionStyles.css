@@ -5,6 +5,7 @@
     grid-template-columns: auto auto;
     align-items: center;
 
+    height: 100vh;
     /* gap: 2%; */
 }
 
@@ -25,4 +26,10 @@
 /* GENERAL STYLES */
 .content-intro {
     margin-top: 0;
+}
+
+@media (max-width: 900px) {
+    .card-holder {
+        height: auto;
+    }
 }

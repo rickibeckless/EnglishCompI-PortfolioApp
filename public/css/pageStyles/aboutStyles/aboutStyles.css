@@ -1,0 +1,19 @@
+@import url(../projectStyles/projectStyles.css);
+
+.middle-container {
+    background-color: #4d4747;
+    color: #dfd3d3;
+}
+
+.project-card {
+    border: 1px solid #202c2c;
+    border-radius: 25px;
+    box-shadow: -7px 7px 11px 4px #5a5555;
+
+    margin: 1% 5% 2%;
+    padding: 0;
+}
+
+.project-content {
+    background-color: inherit;
+}

@@ -1,0 +1,28 @@
+@import url(../projectStyles/projectStyles.css);
+
+.card-holder {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+
+    /* gap: 2%; */
+}
+
+/* LEFT CARD STYLES*/
+
+
+/* RIGHT CARD STYLES */
+/* 
+    Nothing to display rn, change when semester two done ig.
+
+    When semester two ready, take off "display: none;" in the .right-card and 
+    add in "gap: 2%;" in .card-holder.
+*/
+.right-container {
+    display: none;
+}
+
+/* GENERAL STYLES */
+.content-intro {
+    margin-top: 0;
+}

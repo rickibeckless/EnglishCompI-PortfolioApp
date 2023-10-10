@@ -4,7 +4,7 @@ import { homeUrl, aboutUrl, directoryUrl, reflectionUrl, pOneUrl, pTwoUrl, pThre
 const router = express.Router();
 
 router.get('/', homeUrl);
-router.get('/about-me', aboutUrl);
+router.get('/about', aboutUrl);
 // router.get('/directory', directoryUrl);
 router.get('/reflections', reflectionUrl);
 router.get('/project-one', pOneUrl);

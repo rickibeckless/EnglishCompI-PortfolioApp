@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function navigateToAbout() {
-    history.pushState(null, null, '/about-me');
+    history.pushState(null, null, '/about');
 }

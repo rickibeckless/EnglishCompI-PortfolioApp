@@ -7,8 +7,8 @@ router.get('/', homeUrl);
 router.get('/about', aboutUrl);
 // router.get('/directory', directoryUrl);
 router.get('/reflections', reflectionUrl);
-router.get('/project-one', pOneUrl);
-router.get('/project-two', pTwoUrl);
+router.get('/this-i-believe', pOneUrl);
+router.get('/civilian-soldiers', pTwoUrl);
 router.get('/project-three', pThreeUrl);
 
 export default router;

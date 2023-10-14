@@ -1,0 +1,29 @@
+.cite-holder {
+    border: 2px solid black;
+    margin-top: 10%;
+    padding: 1% 4%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: -moz-fit-content;
+    width: fit-content;
+    overflow: scroll;
+    text-indent: 0;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.cite-holder p {
+    padding-left: 22px ;
+    text-indent: -22px ;
+}
+
+.works-cited {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.w-cite a {
+    word-break: break-all;
+    overflow-wrap: break-word;
+}

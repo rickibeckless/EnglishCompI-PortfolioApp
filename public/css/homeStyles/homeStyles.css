@@ -109,13 +109,20 @@
     text-decoration: none;
 }
 
-.card-title a, .am-header a h3 {
+.card-title, .am-header a h3 {
     font-weight: 300;
     transition: 1s;
 }
 
-.card-title a:hover, .am-header a:hover h3 {
-    font-weight: 600;
+.card-title a {
+    font-weight: 300;
+}
+
+.card-title a:hover, .am-header a h3:hover {
+   font-weight: 600; 
+}
+
+.card-title:hover, .am-header a:hover h3 {
     transform: scale(1.2);
 }
 

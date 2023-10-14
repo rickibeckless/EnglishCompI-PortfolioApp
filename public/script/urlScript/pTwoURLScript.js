@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function navigateToProjectTwo() {
-    history.pushState(null, null, '/project-two');
+    history.pushState(null, null, '/civilian-soldiers');
 }

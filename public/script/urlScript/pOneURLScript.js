@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function navigateToProjectOne() {
-    history.pushState(null, null, '/project-one');
+    history.pushState(null, null, '/this-i-believe');
 }

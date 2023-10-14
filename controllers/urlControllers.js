@@ -27,7 +27,7 @@ export const pOneUrl = (req, res) => {
 };
 
 export const pTwoUrl = (req, res) => {
-    res.sendFile(path.join(publicPath, "pages/projects/work-two.html"));
+    res.sendFile(path.join(publicPath, "pages/projects/civilian-soldiers.html"));
 };
 
 export const pThreeUrl = (req, res) => {

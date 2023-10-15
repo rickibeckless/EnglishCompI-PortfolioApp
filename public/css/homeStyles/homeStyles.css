@@ -42,7 +42,7 @@
 .post-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 
     border: 1px solid #dfd3d3;
@@ -51,8 +51,8 @@
 
     background-color: #4d4747;
 
-    width: 95%;
-    height: max-content;
+    width: 100%;
+    height: 100%;
 }
 
 .card-holder {

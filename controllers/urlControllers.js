@@ -22,6 +22,10 @@ export const reflectionUrl = (req, res) => {
     res.sendFile(path.join(publicPath, "pages/reflections.html"));
 };
 
+export const roughUrl = (req, res) => {
+    res.sendFile(path.join(publicPath, "pages/rough.html"));
+}
+
 export const pOneUrl = (req, res) => {
     res.sendFile(path.join(publicPath, "pages/projects/ThisIBelieve.html"));
 };

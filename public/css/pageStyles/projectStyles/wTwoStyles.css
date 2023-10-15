@@ -1,13 +1,14 @@
 .cite-holder {
-    border: 2px solid black;
-    margin-top: 10%;
+    border: 1vw outset #4d47479c;
+    border-radius: 18%;
+    box-shadow: 0px 0px 20px 2px #5a5555;
+    margin-top: 5vw;
     padding: 1% 4%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: -moz-fit-content;
     width: fit-content;
-    overflow: scroll;
     text-indent: 0;
     word-wrap: break-word;
     text-align: left;

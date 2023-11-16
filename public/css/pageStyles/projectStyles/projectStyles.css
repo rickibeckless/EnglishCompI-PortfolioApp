@@ -181,6 +181,15 @@ figure {
     }
 }
 
+@media (max-width: 650px) {
+    .project-content {
+        text-align: left;
+    }
+    .bq-text {
+        text-align: center;
+    }
+}
+
 @media (min-width: 500px) {
     .content-img {
         width: 90%;

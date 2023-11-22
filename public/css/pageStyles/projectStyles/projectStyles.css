@@ -169,6 +169,7 @@ figure {
     font-size: 1.2rem;
 }
 
+/* RESPONSIVE STYLES */
 @media (max-width: 500px) {
     .content-intro {
         font-size: .9rem;
@@ -184,15 +185,6 @@ figure {
     }
     .c-img-caption {
         font-size: .6rem;
-    }
-}
-
-@media (max-width: 650px) {
-    .project-content {
-        text-align: left;
-    }
-    .bq-text {
-        text-align: center;
     }
 }
 

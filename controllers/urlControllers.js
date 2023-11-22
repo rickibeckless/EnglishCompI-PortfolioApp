@@ -35,5 +35,5 @@ export const pTwoUrl = (req, res) => {
 };
 
 export const pThreeUrl = (req, res) => {
-    res.sendFile(path.join(publicPath, "pages/projects/work-three.html"));
+    res.sendFile(path.join(publicPath, "pages/projects/mindsets.html"));
 };

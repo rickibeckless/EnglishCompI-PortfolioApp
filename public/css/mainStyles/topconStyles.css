@@ -57,6 +57,12 @@ a:hover {
     text-decoration: underline 1.5px #DFD3D3 dotted;
 }
 
+.top-container .dropdown-menu .rough-p-link {
+    margin-top: 4%;
+    font-style: italic;
+    border-top: 2px solid #000000;
+}
+
 .dropdown-menu .h-l-item-main:hover {
     font-weight: 300;
 }

@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function navigateToProjectThree() {
-    history.pushState(null, null, '/project-three');
+    history.pushState(null, null, '/mindsets');
 }

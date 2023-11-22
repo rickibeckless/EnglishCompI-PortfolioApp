@@ -10,6 +10,6 @@ router.get('/reflections', reflectionUrl);
 router.get('/rough-drafts', roughUrl);
 router.get('/this-i-believe', pOneUrl);
 router.get('/civilian-soldiers', pTwoUrl);
-router.get('/project-three', pThreeUrl);
+router.get('/mindsets', pThreeUrl);
 
 export default router;

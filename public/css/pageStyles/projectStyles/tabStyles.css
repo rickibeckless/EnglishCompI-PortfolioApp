@@ -1,0 +1,41 @@
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.tabs-holder {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+    
+    margin: 2% 0;
+}
+
+.tabs {
+    cursor: pointer;
+    padding: 1%;
+    color: #000000;
+    font-size: 1rem;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    background-color: #B8B0B0;
+}
+
+.tabs:last-child {
+    border-right: none;
+}
+
+.tabs.active {
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: none;
+    border-top: 2px solid #000000;
+}
+
+.tabs:hover {
+    background-color: #ffffff;
+}

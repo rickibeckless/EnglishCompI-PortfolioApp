@@ -1,17 +1,35 @@
-.middle-container h1 {
+
+
+/* .middle-container h1 {
     text-align: center;
     font-weight: 100;
     font-size: 5vw;
-}
+} */
 
-.project-content img {
-    width: 25vw;
-    height: 35vw;
-    border-radius: 20px;
-
+.rough-imgs {
+    width: 30rem;
     transition: 1.5s;
+    transform: rotate(2deg);
+    float: left;
+    margin: 1% 1% 0.2%;
 }
 
+.r-imgs-page {
+    float: right;
+    transform: rotate(-2deg);
+    margin: 1% 2%;
+    width: 25rem;
+}
+
+.rough-imgs:hover {
+    transform: scale(1.3);
+}
+
+.r-imgs-page:hover {
+    transform: scale(1.2);
+}
+
+/*
 #p3 .project-content img {
     width: 50vw;
 }
@@ -51,4 +69,4 @@
     .project-content img:hover {
         transform: scale(1.1);
     }
-}
+} */

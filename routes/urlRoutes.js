@@ -8,8 +8,8 @@ router.get('/about', aboutUrl);
 // router.get('/directory', directoryUrl);
 router.get('/reflections', reflectionUrl);
 router.get('/rough-drafts', roughUrl);
-router.get('/this-i-believe', pOneUrl);
+router.get('/i-live-for-me', pOneUrl);
 router.get('/civilian-soldiers', pTwoUrl);
-router.get('/mindsets', pThreeUrl);
+router.get('/growth-and-fixed-mindsets', pThreeUrl);
 
 export default router;

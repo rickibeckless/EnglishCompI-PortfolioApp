@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function navigateToProjectThree() {
-    history.pushState(null, null, '/mindsets');
+    history.pushState(null, null, '/growth-and-fixed-mindsets');
 }

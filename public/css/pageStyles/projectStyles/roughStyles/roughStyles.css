@@ -29,6 +29,18 @@
     transform: scale(1.2);
 }
 
+@media (max-width: 630px) {
+    .rough-imgs {
+        width: 100%;
+        float: none;
+    }
+    .r-imgs-page {
+        width: 70%;
+        float: none;
+        display: flex;
+    }
+}
+
 /*
 #p3 .project-content img {
     width: 50vw;

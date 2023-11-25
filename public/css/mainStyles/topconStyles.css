@@ -42,12 +42,10 @@ a:hover {
 
 .top-container .header-links {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
-    width: 60vw;
-    margin-right: 1vw;
-    gap: 4%;
+    gap: 10%;
 }
 
 .dropdown-menu .h-l-item-main {
@@ -72,7 +70,7 @@ a:hover {
 }
 
 .header-links > *:last-child {
-    margin-right: 5%;
+    margin-right: 3vw;
 }
 
 /* DROPDOWN STYLES */

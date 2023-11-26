@@ -29,6 +29,19 @@
     overflow-wrap: break-word;
 }
 
+.w-cite a:link {
+    color: #7C7575;
+}
+
+.w-cite a:visited {
+    color: #373737;
+}
+
+.w-cite a:hover {
+    font-weight: 600;
+    color: #373737;
+}
+
 /* INVENTION TECHNIQUES STYLES */
 .invention-header {
     font-size: 2rem;

@@ -1,5 +1,5 @@
-@import url(../projectStyles/projectStyles.css);
+/* @import url(../projectStyles/projectStyles.css); */
 
-.content-intro {
-    margin-top: 0;
+.accordion {
+    padding: 5%;
 }

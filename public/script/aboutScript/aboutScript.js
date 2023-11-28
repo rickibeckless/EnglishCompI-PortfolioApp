@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             arrow.classList.toggle('active');
         } else {
             const isNestedHeader = content.closest('.nested-accordion');
+            const isMainHeader = content.closest('.main-accordion');
 
             if (!isNestedHeader) {
                 if (previousHeader) {
@@ -39,6 +40,5 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Trigger click event for the first accordion header on load
     accordionHeaders[0].click();
 });

@@ -50,23 +50,24 @@
 .i-h-imgs {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     width: 100%;
     gap: 2%;
     margin-top: 2%;
 }
 
 .invention-fig {
-    color: #7C7575;
+    color: #DFD3D3;
+    background-color: #373737;
     border-radius: 50px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    width: auto;
-    height: auto;
+    width: 40lvw;
 
     margin: 1%;
 
@@ -78,7 +79,7 @@
 }
 
 .invention-img {
-    width: 30vw;
+    width: 100%;
     border: 2px solid #4d47479c;
 }
 
@@ -94,14 +95,9 @@
     }
     .invention-fig {
         border-radius: 10px;
+        width: 90lvw;
     }
     .invention-fig:hover {
         transform: scale(1.1);
-    }
-}
-
-@media (max-width: 450px) {
-    .invention-img {
-        width: 12rem;
     }
 }

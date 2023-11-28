@@ -183,6 +183,10 @@
     .tab-header {
         font-size: 1.5rem;
     }
+    .content-img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width: 450px) {

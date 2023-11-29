@@ -16,12 +16,12 @@
     border: 10px solid #7C7575;
     border-radius: 25px;
     background-color: #FBF0F0;
+    padding: 1%;
 }
 
 .accordion-content-holder {
-    border: 20px solid #FBF0F0;
-    border-bottom: 10px solid #FBF0F0;
     border-radius: 25px;
+    padding: 1%;
 }
 
 .accordion-content-holder:last-child {
@@ -40,7 +40,7 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 2%;
+    padding: 2% 5%;
     cursor: pointer;
 }
 
@@ -98,6 +98,8 @@
     background-color: #FBF0F0;
     font-size: 1.2rem;
     border-radius: 25px;
+
+    padding: 0 3%;
 }
 
 .content-text p {
@@ -118,4 +120,10 @@
     width: 25%;
     border-radius: 15px;
     padding: 1%;
+}
+
+@media (max-width: 600px) {
+    .accordion {
+        width: 90%;
+    }
 }

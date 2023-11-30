@@ -104,7 +104,34 @@
 
 .content-text p {
     text-align: justify;
-    padding: 4%;
+    padding: 2% 4% 0 4%;
+}
+
+.content-text p:first-child {
+    padding-top: 4%;
+}
+
+.content-text p:last-child, .content-text .a-p-introduction {
+    padding-bottom: 4%;
+}
+
+.content-text span {
+   font-variant: small-caps;
+   color: #7C7575;
+   font-size: 1rem;
+}
+
+.content-text span a {
+    color: #7C7575;
+}
+
+.content-text span a:visited {
+    color: #373737;
+}
+
+.content-text span a:hover {
+    font-weight: 600;
+    color: #373737;
 }
 
 .nested-accordion {
@@ -117,9 +144,24 @@
 
 .rb-about-img {
     float: left;
-    width: 25%;
+    width: 30%;
     border-radius: 15px;
     padding: 1%;
+}
+
+.fish-about-img {
+    float: right;
+}
+
+.ang-about-img, .ace-about-img {
+    float: none;
+}
+
+.a-me-bottom-imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 @media (max-width: 600px) {

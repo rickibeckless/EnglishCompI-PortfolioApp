@@ -5,8 +5,47 @@
     grid-template-columns: auto auto;
     align-items: center;
 
-    height: 100vh;
     /* gap: 2%; */
+}
+
+.project-content {
+    padding: 0 10%;
+}
+
+.content-intro {
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+.reflection-header, .reflection-subheader {
+    text-align: right;
+}
+
+.reflection-header {
+    font-size: 1.5rem;
+}
+
+.reflection-subheader {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.content-text .essay-excerpt {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.content-text .essay-excerpt p {
+    font-style: italic;
+    font-size: 1rem;
+    text-align: left;
+    text-indent: 0;
+    width: 80%;
+}
+
+.content-text p {
+    line-height: 150%;
 }
 
 /* LEFT CARD STYLES*/
@@ -23,13 +62,17 @@
     display: none;
 }
 
-/* GENERAL STYLES */
-.content-intro {
-    margin-top: 0;
-}
-
 @media (max-width: 900px) {
     .card-holder {
         height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-content {
+        padding: 0 4%;
+    }
+    .content-intro {
+        font-size: 1rem;
     }
 }

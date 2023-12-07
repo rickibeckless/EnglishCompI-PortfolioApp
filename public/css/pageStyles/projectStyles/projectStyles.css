@@ -161,6 +161,7 @@
 @media (max-width: 600px) {
     .content-intro {
         font-size: .9rem;
+        text-align: center;
     }
     .content-text p {
         font-size: 1rem;

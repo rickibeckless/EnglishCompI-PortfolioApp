@@ -18,5 +18,5 @@ app.use('/', router);
 
 
 app.listen(port, () => {
-    console.log("Eng.Comp.Port App now listening on port " + port);
+    console.log("Eng.Comp.Port App now listening on port: " + port);
 });
